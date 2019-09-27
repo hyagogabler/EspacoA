@@ -172,8 +172,9 @@
             // pacienteToolStripMenuItem1
             // 
             this.pacienteToolStripMenuItem1.Name = "pacienteToolStripMenuItem1";
-            this.pacienteToolStripMenuItem1.Size = new System.Drawing.Size(142, 26);
+            this.pacienteToolStripMenuItem1.Size = new System.Drawing.Size(180, 26);
             this.pacienteToolStripMenuItem1.Text = "Paciente";
+            this.pacienteToolStripMenuItem1.Click += new System.EventHandler(this.PacienteToolStripMenuItem1_Click);
             // 
             // atendimentoToolStripMenuItem
             // 

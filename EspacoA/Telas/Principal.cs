@@ -24,5 +24,13 @@ namespace EspacoA.Telas
             Usuarios.Parent = telas;
             Usuarios.Show();
         }
+
+        private void PacienteToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            CadPac Pacientes = new CadPac();
+            Pacientes.TopLevel = false;
+            Pacientes.Parent = telas;
+            Pacientes.Show();
+        }
     }
 }

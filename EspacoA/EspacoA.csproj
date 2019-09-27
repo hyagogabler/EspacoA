@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Telas\CadPac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\CadPac.Designer.cs">
+      <DependentUpon>CadPac.cs</DependentUpon>
+    </Compile>
     <Compile Include="Telas\CadUsu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Telas\CadPac.resx">
+      <DependentUpon>CadPac.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Telas\CadUsu.resx">
       <DependentUpon>CadUsu.cs</DependentUpon>
     </EmbeddedResource>
