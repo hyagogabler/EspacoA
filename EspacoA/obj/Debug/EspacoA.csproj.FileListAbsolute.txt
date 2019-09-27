@@ -1,0 +1,12 @@
+C:\Users\felipe.souza\source\repos\EspacoA\EspacoA\bin\Debug\EspacoA.exe.config
+C:\Users\felipe.souza\source\repos\EspacoA\EspacoA\bin\Debug\EspacoA.exe
+C:\Users\felipe.souza\source\repos\EspacoA\EspacoA\bin\Debug\EspacoA.pdb
+C:\Users\felipe.souza\source\repos\EspacoA\EspacoA\obj\Debug\EspacoA.csprojAssemblyReference.cache
+C:\Users\felipe.souza\source\repos\EspacoA\EspacoA\obj\Debug\EspacoA.Properties.Resources.resources
+C:\Users\felipe.souza\source\repos\EspacoA\EspacoA\obj\Debug\EspacoA.Form1.resources
+C:\Users\felipe.souza\source\repos\EspacoA\EspacoA\obj\Debug\EspacoA.Telas.Principal.resources
+C:\Users\felipe.souza\source\repos\EspacoA\EspacoA\obj\Debug\EspacoA.csproj.GenerateResource.cache
+C:\Users\felipe.souza\source\repos\EspacoA\EspacoA\obj\Debug\EspacoA.csproj.CoreCompileInputs.cache
+C:\Users\felipe.souza\source\repos\EspacoA\EspacoA\obj\Debug\EspacoA.exe
+C:\Users\felipe.souza\source\repos\EspacoA\EspacoA\obj\Debug\EspacoA.pdb
+C:\Users\felipe.souza\source\repos\EspacoA\EspacoA\obj\Debug\EspacoA.Telas.CadUsu.resources
