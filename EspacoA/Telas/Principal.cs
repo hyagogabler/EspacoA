@@ -32,5 +32,13 @@ namespace EspacoA.Telas
             Pacientes.Parent = telas;
             Pacientes.Show();
         }
+
+        private void EstéticaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CadEst Estetica = new CadEst();
+            Estetica.TopLevel = false;
+            Estetica.Parent = telas;
+            Estetica.Show();
+        }
     }
 }

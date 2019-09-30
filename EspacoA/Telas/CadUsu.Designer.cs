@@ -74,13 +74,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.Contato.SuspendLayout();
             this.SuspendLayout();
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(327, 352);
+            this.button7.Location = new System.Drawing.Point(326, 380);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(58, 57);
             this.button7.TabIndex = 79;
@@ -88,7 +89,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(608, 353);
+            this.button5.Location = new System.Drawing.Point(607, 381);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(58, 57);
             this.button5.TabIndex = 78;
@@ -96,7 +97,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(263, 351);
+            this.button6.Location = new System.Drawing.Point(262, 379);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(58, 57);
             this.button6.TabIndex = 77;
@@ -104,7 +105,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(673, 353);
+            this.button1.Location = new System.Drawing.Point(672, 381);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(58, 57);
             this.button1.TabIndex = 76;
@@ -112,7 +113,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(544, 353);
+            this.button4.Location = new System.Drawing.Point(543, 381);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(58, 57);
             this.button4.TabIndex = 75;
@@ -120,7 +121,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(391, 352);
+            this.button3.Location = new System.Drawing.Point(390, 380);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(58, 58);
             this.button3.TabIndex = 74;
@@ -128,7 +129,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(455, 353);
+            this.button2.Location = new System.Drawing.Point(454, 381);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(83, 57);
             this.button2.TabIndex = 73;
@@ -151,7 +152,7 @@
             this.groupBox1.Controls.Add(this.textBox8);
             this.groupBox1.Controls.Add(this.textBox6);
             this.groupBox1.Controls.Add(this.textBox7);
-            this.groupBox1.Location = new System.Drawing.Point(109, 295);
+            this.groupBox1.Location = new System.Drawing.Point(108, 323);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(763, 154);
             this.groupBox1.TabIndex = 98;
@@ -323,7 +324,7 @@
             this.Contato.Controls.Add(this.label6);
             this.Contato.Controls.Add(this.label4);
             this.Contato.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.Contato.Location = new System.Drawing.Point(500, 158);
+            this.Contato.Location = new System.Drawing.Point(499, 186);
             this.Contato.Name = "Contato";
             this.Contato.Size = new System.Drawing.Size(372, 93);
             this.Contato.TabIndex = 97;
@@ -378,7 +379,7 @@
             this.radioButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
             this.radioButton2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(121)))), ((int)(((byte)(92)))));
-            this.radioButton2.Location = new System.Drawing.Point(725, 122);
+            this.radioButton2.Location = new System.Drawing.Point(724, 150);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(93, 25);
             this.radioButton2.TabIndex = 96;
@@ -392,7 +393,7 @@
             this.radioButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
             this.radioButton1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(121)))), ((int)(((byte)(92)))));
-            this.radioButton1.Location = new System.Drawing.Point(604, 122);
+            this.radioButton1.Location = new System.Drawing.Point(603, 150);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(99, 25);
             this.radioButton1.TabIndex = 95;
@@ -406,7 +407,7 @@
             this.label17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
             this.label17.Font = new System.Drawing.Font("Leelawadee UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(121)))), ((int)(((byte)(92)))));
-            this.label17.Location = new System.Drawing.Point(530, 122);
+            this.label17.Location = new System.Drawing.Point(529, 150);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(56, 25);
             this.label17.TabIndex = 94;
@@ -416,7 +417,7 @@
             // 
             this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox11.Font = new System.Drawing.Font("Leelawadee UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.Location = new System.Drawing.Point(264, 262);
+            this.textBox11.Location = new System.Drawing.Point(263, 290);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(198, 27);
             this.textBox11.TabIndex = 93;
@@ -425,7 +426,7 @@
             // 
             this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox10.Font = new System.Drawing.Font("Leelawadee UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(646, 262);
+            this.textBox10.Location = new System.Drawing.Point(645, 290);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(205, 27);
             this.textBox10.TabIndex = 92;
@@ -434,7 +435,7 @@
             // 
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox4.Font = new System.Drawing.Font("Leelawadee UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(685, 80);
+            this.textBox4.Location = new System.Drawing.Point(684, 108);
             this.textBox4.MaxLength = 14;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(166, 27);
@@ -446,7 +447,7 @@
             this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.comboBox1.Font = new System.Drawing.Font("Leelawadee UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(264, 169);
+            this.comboBox1.Location = new System.Drawing.Point(263, 197);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(167, 28);
             this.comboBox1.TabIndex = 90;
@@ -455,7 +456,7 @@
             // 
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox2.Font = new System.Drawing.Font("Leelawadee UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(264, 123);
+            this.textBox2.Location = new System.Drawing.Point(263, 151);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(101, 27);
             this.textBox2.TabIndex = 89;
@@ -464,7 +465,7 @@
             // 
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox3.Font = new System.Drawing.Font("Leelawadee UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(264, 214);
+            this.textBox3.Location = new System.Drawing.Point(263, 242);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(198, 27);
             this.textBox3.TabIndex = 88;
@@ -475,7 +476,7 @@
             this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
             this.label16.Font = new System.Drawing.Font("Leelawadee UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(121)))), ((int)(((byte)(92)))));
-            this.label16.Location = new System.Drawing.Point(113, 216);
+            this.label16.Location = new System.Drawing.Point(112, 244);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(145, 25);
             this.label16.TabIndex = 87;
@@ -485,7 +486,7 @@
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox1.Font = new System.Drawing.Font("Leelawadee UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(263, 80);
+            this.textBox1.Location = new System.Drawing.Point(262, 108);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(354, 27);
             this.textBox1.TabIndex = 86;
@@ -496,7 +497,7 @@
             this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
             this.label8.Font = new System.Drawing.Font("Leelawadee UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(121)))), ((int)(((byte)(92)))));
-            this.label8.Location = new System.Drawing.Point(482, 260);
+            this.label8.Location = new System.Drawing.Point(481, 288);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(158, 25);
             this.label8.TabIndex = 85;
@@ -508,7 +509,7 @@
             this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
             this.label7.Font = new System.Drawing.Font("Leelawadee UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(121)))), ((int)(((byte)(92)))));
-            this.label7.Location = new System.Drawing.Point(190, 260);
+            this.label7.Location = new System.Drawing.Point(189, 288);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(68, 25);
             this.label7.TabIndex = 84;
@@ -520,7 +521,7 @@
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
             this.label5.Font = new System.Drawing.Font("Leelawadee UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(121)))), ((int)(((byte)(92)))));
-            this.label5.Location = new System.Drawing.Point(623, 80);
+            this.label5.Location = new System.Drawing.Point(622, 108);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(56, 25);
             this.label5.TabIndex = 83;
@@ -532,7 +533,7 @@
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
             this.label3.Font = new System.Drawing.Font("Leelawadee UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(121)))), ((int)(((byte)(92)))));
-            this.label3.Location = new System.Drawing.Point(104, 79);
+            this.label3.Location = new System.Drawing.Point(103, 107);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(154, 25);
             this.label3.TabIndex = 82;
@@ -544,7 +545,7 @@
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
             this.label2.Font = new System.Drawing.Font("Leelawadee UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(121)))), ((int)(((byte)(92)))));
-            this.label2.Location = new System.Drawing.Point(142, 125);
+            this.label2.Location = new System.Drawing.Point(141, 153);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(116, 25);
             this.label2.TabIndex = 81;
@@ -556,11 +557,23 @@
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
             this.label1.Font = new System.Drawing.Font("Leelawadee UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(121)))), ((int)(((byte)(92)))));
-            this.label1.Location = new System.Drawing.Point(191, 172);
+            this.label1.Location = new System.Drawing.Point(190, 200);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(67, 25);
             this.label1.TabIndex = 80;
             this.label1.Text = "Cargo:";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Lucida Handwriting", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(121)))), ((int)(((byte)(92)))));
+            this.label20.Location = new System.Drawing.Point(207, 21);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(610, 63);
+            this.label20.TabIndex = 103;
+            this.label20.Text = "Cadastro de Usuários";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // CadUsu
             // 
@@ -568,6 +581,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
             this.ClientSize = new System.Drawing.Size(952, 551);
+            this.Controls.Add(this.label20);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.Contato);
             this.Controls.Add(this.radioButton2);
@@ -594,6 +608,7 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "CadUsu";
             this.ShowIcon = false;
@@ -655,5 +670,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label20;
     }
 }

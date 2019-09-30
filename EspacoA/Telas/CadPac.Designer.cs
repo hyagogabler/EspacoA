@@ -612,6 +612,7 @@
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Lucida Handwriting", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(121)))), ((int)(((byte)(92)))));
             this.label20.Location = new System.Drawing.Point(214, 31);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(629, 63);

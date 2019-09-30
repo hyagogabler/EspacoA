@@ -23,3 +23,4 @@ C:\Users\felipe.souza\source\repos\TCC-Espaco-A\EspacoA\EspacoA\obj\Debug\Espaco
 C:\Users\felipe.souza\source\repos\TCC-Espaco-A\EspacoA\EspacoA\obj\Debug\EspacoA.csproj.CoreCompileInputs.cache
 C:\Users\felipe.souza\source\repos\TCC-Espaco-A\EspacoA\EspacoA\obj\Debug\EspacoA.exe
 C:\Users\felipe.souza\source\repos\TCC-Espaco-A\EspacoA\EspacoA\obj\Debug\EspacoA.pdb
+C:\Users\felipe.souza\Source\Repos\TCC-Espaco-A\EspacoA\EspacoA\obj\Debug\EspacoA.Telas.CadEst.resources

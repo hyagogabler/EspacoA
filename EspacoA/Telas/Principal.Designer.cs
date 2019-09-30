@@ -165,14 +165,14 @@
             // pacienteToolStripMenuItem
             // 
             this.pacienteToolStripMenuItem.Name = "pacienteToolStripMenuItem";
-            this.pacienteToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.pacienteToolStripMenuItem.Size = new System.Drawing.Size(142, 26);
             this.pacienteToolStripMenuItem.Text = "Usuário";
             this.pacienteToolStripMenuItem.Click += new System.EventHandler(this.PacienteToolStripMenuItem_Click);
             // 
             // pacienteToolStripMenuItem1
             // 
             this.pacienteToolStripMenuItem1.Name = "pacienteToolStripMenuItem1";
-            this.pacienteToolStripMenuItem1.Size = new System.Drawing.Size(180, 26);
+            this.pacienteToolStripMenuItem1.Size = new System.Drawing.Size(142, 26);
             this.pacienteToolStripMenuItem1.Text = "Paciente";
             this.pacienteToolStripMenuItem1.Click += new System.EventHandler(this.PacienteToolStripMenuItem1_Click);
             // 
@@ -190,19 +190,20 @@
             // estéticaToolStripMenuItem
             // 
             this.estéticaToolStripMenuItem.Name = "estéticaToolStripMenuItem";
-            this.estéticaToolStripMenuItem.Size = new System.Drawing.Size(164, 26);
+            this.estéticaToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.estéticaToolStripMenuItem.Text = "Estética";
+            this.estéticaToolStripMenuItem.Click += new System.EventHandler(this.EstéticaToolStripMenuItem_Click);
             // 
             // fisioterapiaToolStripMenuItem
             // 
             this.fisioterapiaToolStripMenuItem.Name = "fisioterapiaToolStripMenuItem";
-            this.fisioterapiaToolStripMenuItem.Size = new System.Drawing.Size(164, 26);
+            this.fisioterapiaToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.fisioterapiaToolStripMenuItem.Text = "Fisioterapia";
             // 
             // pilatesToolStripMenuItem
             // 
             this.pilatesToolStripMenuItem.Name = "pilatesToolStripMenuItem";
-            this.pilatesToolStripMenuItem.Size = new System.Drawing.Size(164, 26);
+            this.pilatesToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.pilatesToolStripMenuItem.Text = "Pilates";
             // 
             // documentosToolStripMenuItem

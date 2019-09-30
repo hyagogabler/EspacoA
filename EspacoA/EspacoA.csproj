@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Telas\CadEst.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\CadEst.Designer.cs">
+      <DependentUpon>CadEst.cs</DependentUpon>
+    </Compile>
     <Compile Include="Telas\CadPac.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Telas\CadPac.Designer.cs">
       <DependentUpon>CadPac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\CadPilates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\CadPilates.Designer.cs">
+      <DependentUpon>CadPilates.cs</DependentUpon>
     </Compile>
     <Compile Include="Telas\CadUsu.cs">
       <SubType>Form</SubType>
@@ -81,8 +93,14 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Telas\CadEst.resx">
+      <DependentUpon>CadEst.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Telas\CadPac.resx">
       <DependentUpon>CadPac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\CadPilates.resx">
+      <DependentUpon>CadPilates.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\CadUsu.resx">
       <DependentUpon>CadUsu.cs</DependentUpon>
