@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CadEst));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox20 = new System.Windows.Forms.TextBox();
             this.label21 = new System.Windows.Forms.Label();
@@ -50,6 +49,8 @@
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.textBox17 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -89,9 +90,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.comboBox6 = new System.Windows.Forms.ComboBox();
             this.label28 = new System.Windows.Forms.Label();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
@@ -112,6 +111,7 @@
             this.button9 = new System.Windows.Forms.Button();
             this.textBox22 = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.radioButton17 = new System.Windows.Forms.RadioButton();
             this.radioButton18 = new System.Windows.Forms.RadioButton();
             this.radioButton19 = new System.Windows.Forms.RadioButton();
@@ -154,12 +154,18 @@
             this.button18 = new System.Windows.Forms.Button();
             this.textBox24 = new System.Windows.Forms.TextBox();
             this.label30 = new System.Windows.Forms.Label();
+            this.button19 = new System.Windows.Forms.Button();
+            this.button20 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
+            this.button22 = new System.Windows.Forms.Button();
+            this.button23 = new System.Windows.Forms.Button();
+            this.button24 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -177,6 +183,8 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.button19);
+            this.tabPage1.Controls.Add(this.button20);
             this.tabPage1.Controls.Add(this.button1);
             this.tabPage1.Controls.Add(this.textBox20);
             this.tabPage1.Controls.Add(this.label21);
@@ -222,36 +230,6 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Corporal";
             this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.comboBox6);
-            this.tabPage2.Controls.Add(this.label28);
-            this.tabPage2.Controls.Add(this.comboBox5);
-            this.tabPage2.Controls.Add(this.label27);
-            this.tabPage2.Controls.Add(this.comboBox4);
-            this.tabPage2.Controls.Add(this.label26);
-            this.tabPage2.Controls.Add(this.comboBox3);
-            this.tabPage2.Controls.Add(this.label25);
-            this.tabPage2.Controls.Add(this.comboBox2);
-            this.tabPage2.Controls.Add(this.label24);
-            this.tabPage2.Controls.Add(this.button10);
-            this.tabPage2.Controls.Add(this.button11);
-            this.tabPage2.Controls.Add(this.button12);
-            this.tabPage2.Controls.Add(this.button6);
-            this.tabPage2.Controls.Add(this.textBox21);
-            this.tabPage2.Controls.Add(this.label22);
-            this.tabPage2.Controls.Add(this.button8);
-            this.tabPage2.Controls.Add(this.button9);
-            this.tabPage2.Controls.Add(this.textBox22);
-            this.tabPage2.Controls.Add(this.label23);
-            this.tabPage2.Location = new System.Drawing.Point(4, 24);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1254, 747);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Facial";
-            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
@@ -435,6 +413,22 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(342, 312);
             this.panel1.TabIndex = 130;
+            // 
+            // textBox18
+            // 
+            this.textBox18.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox18.Location = new System.Drawing.Point(216, 91);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(100, 29);
+            this.textBox18.TabIndex = 94;
+            // 
+            // textBox17
+            // 
+            this.textBox17.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox17.Location = new System.Drawing.Point(216, 54);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(100, 29);
+            this.textBox17.TabIndex = 93;
             // 
             // groupBox1
             // 
@@ -854,72 +848,37 @@
             this.label3.TabIndex = 104;
             this.label3.Text = "Doenças:";
             // 
-            // textBox17
+            // tabPage2
             // 
-            this.textBox17.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox17.Location = new System.Drawing.Point(216, 54);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(100, 29);
-            this.textBox17.TabIndex = 93;
-            // 
-            // textBox18
-            // 
-            this.textBox18.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox18.Location = new System.Drawing.Point(216, 91);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(100, 29);
-            this.textBox18.TabIndex = 94;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Controls.Add(this.radioButton17);
-            this.tabPage3.Controls.Add(this.radioButton18);
-            this.tabPage3.Controls.Add(this.radioButton19);
-            this.tabPage3.Controls.Add(this.radioButton20);
-            this.tabPage3.Controls.Add(this.radioButton21);
-            this.tabPage3.Controls.Add(this.radioButton22);
-            this.tabPage3.Controls.Add(this.radioButton23);
-            this.tabPage3.Controls.Add(this.label36);
-            this.tabPage3.Controls.Add(this.checkBox9);
-            this.tabPage3.Controls.Add(this.textBox26);
-            this.tabPage3.Controls.Add(this.label35);
-            this.tabPage3.Controls.Add(this.radioButton15);
-            this.tabPage3.Controls.Add(this.radioButton16);
-            this.tabPage3.Controls.Add(this.label34);
-            this.tabPage3.Controls.Add(this.radioButton12);
-            this.tabPage3.Controls.Add(this.radioButton13);
-            this.tabPage3.Controls.Add(this.radioButton14);
-            this.tabPage3.Controls.Add(this.label33);
-            this.tabPage3.Controls.Add(this.radioButton8);
-            this.tabPage3.Controls.Add(this.radioButton9);
-            this.tabPage3.Controls.Add(this.radioButton10);
-            this.tabPage3.Controls.Add(this.radioButton11);
-            this.tabPage3.Controls.Add(this.label32);
-            this.tabPage3.Controls.Add(this.textBox25);
-            this.tabPage3.Controls.Add(this.radioButton7);
-            this.tabPage3.Controls.Add(this.radioButton6);
-            this.tabPage3.Controls.Add(this.radioButton5);
-            this.tabPage3.Controls.Add(this.radioButton4);
-            this.tabPage3.Controls.Add(this.radioButton3);
-            this.tabPage3.Controls.Add(this.radioButton2);
-            this.tabPage3.Controls.Add(this.radioButton1);
-            this.tabPage3.Controls.Add(this.label31);
-            this.tabPage3.Controls.Add(this.button13);
-            this.tabPage3.Controls.Add(this.button14);
-            this.tabPage3.Controls.Add(this.button15);
-            this.tabPage3.Controls.Add(this.button16);
-            this.tabPage3.Controls.Add(this.textBox23);
-            this.tabPage3.Controls.Add(this.label29);
-            this.tabPage3.Controls.Add(this.button17);
-            this.tabPage3.Controls.Add(this.button18);
-            this.tabPage3.Controls.Add(this.textBox24);
-            this.tabPage3.Controls.Add(this.label30);
-            this.tabPage3.Location = new System.Drawing.Point(4, 24);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(1254, 747);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Estrias";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            this.tabPage2.Controls.Add(this.button21);
+            this.tabPage2.Controls.Add(this.button22);
+            this.tabPage2.Controls.Add(this.comboBox6);
+            this.tabPage2.Controls.Add(this.label28);
+            this.tabPage2.Controls.Add(this.comboBox5);
+            this.tabPage2.Controls.Add(this.label27);
+            this.tabPage2.Controls.Add(this.comboBox4);
+            this.tabPage2.Controls.Add(this.label26);
+            this.tabPage2.Controls.Add(this.comboBox3);
+            this.tabPage2.Controls.Add(this.label25);
+            this.tabPage2.Controls.Add(this.comboBox2);
+            this.tabPage2.Controls.Add(this.label24);
+            this.tabPage2.Controls.Add(this.button10);
+            this.tabPage2.Controls.Add(this.button11);
+            this.tabPage2.Controls.Add(this.button12);
+            this.tabPage2.Controls.Add(this.button6);
+            this.tabPage2.Controls.Add(this.textBox21);
+            this.tabPage2.Controls.Add(this.label22);
+            this.tabPage2.Controls.Add(this.button8);
+            this.tabPage2.Controls.Add(this.button9);
+            this.tabPage2.Controls.Add(this.textBox22);
+            this.tabPage2.Controls.Add(this.label23);
+            this.tabPage2.Location = new System.Drawing.Point(4, 24);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1254, 747);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Facial";
+            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // comboBox6
             // 
@@ -1120,6 +1079,59 @@
             this.label23.Size = new System.Drawing.Size(171, 25);
             this.label23.TabIndex = 124;
             this.label23.Text = "Nome do Paciente:";
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.button23);
+            this.tabPage3.Controls.Add(this.button24);
+            this.tabPage3.Controls.Add(this.radioButton17);
+            this.tabPage3.Controls.Add(this.radioButton18);
+            this.tabPage3.Controls.Add(this.radioButton19);
+            this.tabPage3.Controls.Add(this.radioButton20);
+            this.tabPage3.Controls.Add(this.radioButton21);
+            this.tabPage3.Controls.Add(this.radioButton22);
+            this.tabPage3.Controls.Add(this.radioButton23);
+            this.tabPage3.Controls.Add(this.label36);
+            this.tabPage3.Controls.Add(this.checkBox9);
+            this.tabPage3.Controls.Add(this.textBox26);
+            this.tabPage3.Controls.Add(this.label35);
+            this.tabPage3.Controls.Add(this.radioButton15);
+            this.tabPage3.Controls.Add(this.radioButton16);
+            this.tabPage3.Controls.Add(this.label34);
+            this.tabPage3.Controls.Add(this.radioButton12);
+            this.tabPage3.Controls.Add(this.radioButton13);
+            this.tabPage3.Controls.Add(this.radioButton14);
+            this.tabPage3.Controls.Add(this.label33);
+            this.tabPage3.Controls.Add(this.radioButton8);
+            this.tabPage3.Controls.Add(this.radioButton9);
+            this.tabPage3.Controls.Add(this.radioButton10);
+            this.tabPage3.Controls.Add(this.radioButton11);
+            this.tabPage3.Controls.Add(this.label32);
+            this.tabPage3.Controls.Add(this.textBox25);
+            this.tabPage3.Controls.Add(this.radioButton7);
+            this.tabPage3.Controls.Add(this.radioButton6);
+            this.tabPage3.Controls.Add(this.radioButton5);
+            this.tabPage3.Controls.Add(this.radioButton4);
+            this.tabPage3.Controls.Add(this.radioButton3);
+            this.tabPage3.Controls.Add(this.radioButton2);
+            this.tabPage3.Controls.Add(this.radioButton1);
+            this.tabPage3.Controls.Add(this.label31);
+            this.tabPage3.Controls.Add(this.button13);
+            this.tabPage3.Controls.Add(this.button14);
+            this.tabPage3.Controls.Add(this.button15);
+            this.tabPage3.Controls.Add(this.button16);
+            this.tabPage3.Controls.Add(this.textBox23);
+            this.tabPage3.Controls.Add(this.label29);
+            this.tabPage3.Controls.Add(this.button17);
+            this.tabPage3.Controls.Add(this.button18);
+            this.tabPage3.Controls.Add(this.textBox24);
+            this.tabPage3.Controls.Add(this.label30);
+            this.tabPage3.Location = new System.Drawing.Point(4, 24);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(1254, 747);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Estrias";
+            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // radioButton17
             // 
@@ -1614,6 +1626,60 @@
             this.label30.TabIndex = 159;
             this.label30.Text = "Nome do Paciente:";
             // 
+            // button19
+            // 
+            this.button19.Image = ((System.Drawing.Image)(resources.GetObject("button19.Image")));
+            this.button19.Location = new System.Drawing.Point(1193, 0);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(32, 32);
+            this.button19.TabIndex = 143;
+            this.button19.UseVisualStyleBackColor = true;
+            // 
+            // button20
+            // 
+            this.button20.Image = ((System.Drawing.Image)(resources.GetObject("button20.Image")));
+            this.button20.Location = new System.Drawing.Point(1222, 0);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(32, 32);
+            this.button20.TabIndex = 142;
+            this.button20.UseVisualStyleBackColor = true;
+            // 
+            // button21
+            // 
+            this.button21.Image = ((System.Drawing.Image)(resources.GetObject("button21.Image")));
+            this.button21.Location = new System.Drawing.Point(1194, 0);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(32, 32);
+            this.button21.TabIndex = 145;
+            this.button21.UseVisualStyleBackColor = true;
+            // 
+            // button22
+            // 
+            this.button22.Image = ((System.Drawing.Image)(resources.GetObject("button22.Image")));
+            this.button22.Location = new System.Drawing.Point(1223, 0);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(32, 32);
+            this.button22.TabIndex = 144;
+            this.button22.UseVisualStyleBackColor = true;
+            // 
+            // button23
+            // 
+            this.button23.Image = ((System.Drawing.Image)(resources.GetObject("button23.Image")));
+            this.button23.Location = new System.Drawing.Point(1193, 0);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(32, 32);
+            this.button23.TabIndex = 202;
+            this.button23.UseVisualStyleBackColor = true;
+            // 
+            // button24
+            // 
+            this.button24.Image = ((System.Drawing.Image)(resources.GetObject("button24.Image")));
+            this.button24.Location = new System.Drawing.Point(1222, 0);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(32, 32);
+            this.button24.TabIndex = 201;
+            this.button24.UseVisualStyleBackColor = true;
+            // 
             // CadEst
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1626,14 +1692,14 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             this.ResumeLayout(false);
@@ -1767,5 +1833,11 @@
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.TextBox textBox24;
         private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.Button button22;
+        private System.Windows.Forms.Button button23;
+        private System.Windows.Forms.Button button24;
     }
 }

@@ -205,6 +205,7 @@
             this.pilatesToolStripMenuItem.Name = "pilatesToolStripMenuItem";
             this.pilatesToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.pilatesToolStripMenuItem.Text = "Pilates";
+            this.pilatesToolStripMenuItem.Click += new System.EventHandler(this.PilatesToolStripMenuItem_Click);
             // 
             // documentosToolStripMenuItem
             // 

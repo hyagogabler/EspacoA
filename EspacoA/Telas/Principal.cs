@@ -40,5 +40,13 @@ namespace EspacoA.Telas
             Estetica.Parent = telas;
             Estetica.Show();
         }
+
+        private void PilatesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CadPilates Pilates = new CadPilates();
+            Pilates.TopLevel = false;
+            Pilates.Parent = telas;
+            Pilates.Show();
+        }
     }
 }

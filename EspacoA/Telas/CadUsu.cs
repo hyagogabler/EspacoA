@@ -16,5 +16,15 @@ namespace EspacoA.Telas
         {
             InitializeComponent();
         }
+
+        private void Button16_Click(object sender, EventArgs e)
+        {
+            Dispose();
+        }
+
+        private void Button17_Click(object sender, EventArgs e)
+        {
+            Hide();
+        }
     }
 }

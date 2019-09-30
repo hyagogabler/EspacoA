@@ -55,6 +55,8 @@
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
+            this.button17 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox13
@@ -235,7 +237,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.textBox4.BackColor = System.Drawing.Color.White;
             this.textBox4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.Location = new System.Drawing.Point(232, 117);
             this.textBox4.Name = "textBox4";
@@ -330,12 +332,32 @@
             this.label20.Text = "Atendimento de Pilates";
             this.label20.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // button17
+            // 
+            this.button17.Image = ((System.Drawing.Image)(resources.GetObject("button17.Image")));
+            this.button17.Location = new System.Drawing.Point(908, 0);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(32, 32);
+            this.button17.TabIndex = 163;
+            this.button17.UseVisualStyleBackColor = true;
+            // 
+            // button16
+            // 
+            this.button16.Image = ((System.Drawing.Image)(resources.GetObject("button16.Image")));
+            this.button16.Location = new System.Drawing.Point(937, 0);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(32, 32);
+            this.button16.TabIndex = 162;
+            this.button16.UseVisualStyleBackColor = true;
+            // 
             // CadPilates
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(968, 555);
+            this.Controls.Add(this.button17);
+            this.Controls.Add(this.button16);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.textBox13);
             this.Controls.Add(this.label10);
@@ -401,5 +423,7 @@
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Button button16;
     }
 }
